@@ -37,6 +37,6 @@ func KtpRun(request ModelKTP)(string, string,string){
 }
 
 func Hallo(name string)string{
-	return "Hello" + name
+	return "Hello " + name
 
 }
