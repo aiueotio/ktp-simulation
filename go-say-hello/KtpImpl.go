@@ -21,7 +21,7 @@ func PanicsKtp(error bool){
 type Filter func(string)string
 
 func ToxicFilter(name string,filter Filter){
-	fmt.Println("Hallo",name)
+	fmt.Println("Hallo",filter(name))
 }
 
 func NameFilter(name string) string{
